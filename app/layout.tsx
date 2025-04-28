@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import "@/public/css/whatsapp-floating.css";
 import "@/public/css/lux-bootstrap.min.css";
+import "@/public/css/whatsapp-floating.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Twese Mart",
@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className={``}>
         {children}
         <a
-          href="https://wa.me/263785720856" // Replace with your business WhatsApp number
+          href="https://wa.me/263786486522" // Replace with your business WhatsApp number
           className="whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"
