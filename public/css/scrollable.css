@@ -1,0 +1,17 @@
+.scrollable-section {
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.scrollable-section::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+@media (min-width: 768px) {
+  #productImage {
+    max-height: 450px;
+  }
+}
+
+.scroll-snap::-webkit-scrollbar {
+  display: none;
+}
